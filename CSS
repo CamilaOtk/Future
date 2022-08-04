@@ -1,0 +1,58 @@
+Body{
+    background-image: linear-gradient(rgba(128, 29, 78, 0.74),rgba(194, 93, 107, 0.856));
+    height: 100vh;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+button{
+    background-color: rgb(27, 3, 49);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: sans-serif;
+    transition: 0.2s;
+}
+button:hover{
+    background-color: rgb(118, 92, 143);
+    
+}
+input{
+    padding: 15px;
+    border-radius: 5px;
+    width: 300px;
+    height: 10px;
+}
+#conteiner{
+    width: 80%;
+    margin-top: 100px;
+    max-width: 400px;
+    margin-inline: auto;
+}
+h1{
+    margin-top:40px;
+    margin-bottom:10px;
+    opacity:0.9;
+}
+p{
+    margin-bottom:40px;
+    opacity:0.7;
+}
+#resposta{
+    margin-top: 30px;
+    transition: opacity 1s;
+    
+}
+
+#resposta div{
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
+
